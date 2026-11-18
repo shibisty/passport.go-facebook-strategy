@@ -1,5 +1,5 @@
 // Package facebook implements login with Facebook (OAuth2 + Graph API /me).
-// gtr package: passport-facebook.
+// gtr package: @passport/facebook.
 //
 //	a.Use(facebook.New(appID, appSecret, "https://app.example.com/auth/facebook/callback"))
 //
@@ -16,7 +16,7 @@ import (
 	"net/url"
 
 	"passport"
-	oauth2 "passport-oauth2"
+	oauth2 "passport/oauth2"
 )
 
 // DefaultAPIVersion is the default Graph API version (released July 29, 2026).
